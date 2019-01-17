@@ -1,0 +1,19 @@
+Output for sample 1:
+INFO  agile.test.palii.ElementFinder - The most similar element <a class="btn btn-success" href="#check-and-ok" title="Make-Button" rel="done" onclick="javascript:window.okDone(); return false;"> Make everything OK </a>
+INFO  agile.test.palii.ElementFinder - Level of similarity: 3
+INFO  agile.test.palii.Main - Path to found element: html -> body -> div -> div -> div -> div -> div -> div -> a
+
+Output for sample 2:
+INFO  agile.test.palii.ElementFinder - The most similar element <a class="btn test-link-ok" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okComplete(); return false;"> Make everything OK </a>
+INFO  agile.test.palii.ElementFinder - Level of similarity: 4
+INFO  agile.test.palii.Main - Path to found element: html -> body -> div -> div -> div -> div -> div -> div -> div -> a
+
+Output for sample 3:
+INFO  agile.test.palii.ElementFinder - The most similar element <a class="btn btn-success" href="#ok" title="Do-Link" rel="next" onclick="javascript:window.okDone(); return false;"> Do anything perfect </a>
+INFO  agile.test.palii.ElementFinder - Level of similarity: 3
+INFO  agile.test.palii.Main - Path to found element: html -> body -> div -> div -> div -> div -> div -> div -> a
+
+Output for sample 4:
+INFO  agile.test.palii.ElementFinder - The most similar element <a class="btn btn-success" href="#ok" title="Make-Button" rel="next" onclick="javascript:window.okFinalize(); return false;"> Do all GREAT </a>
+INFO  agile.test.palii.ElementFinder - Level of similarity: 4
+INFO  agile.test.palii.Main - Path to found element: html -> body -> div -> div -> div -> div -> div -> div -> a
